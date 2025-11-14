@@ -51,7 +51,7 @@ export default function Page() {
       <div id="hero" data-section="hero">
         <HeroBillboardScroll
           title="Your Perfect Paris Getaway Awaits"
-          description="Experience authentic Parisian living in our beautifully appointed apartment, perfectly located in the heart of the City of Light"
+          description="Experience true Parisian charm in our elegantly designed apartment, ideally situated in the heart of the City of Light"
           tag="Premium Airbnb"
           tagIcon={MapPin}
           buttons={[
