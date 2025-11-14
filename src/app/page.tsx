@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
@@ -13,7 +13,7 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { MapPin, Home, Camera, Euro, Award, Users, MessageCircle, BookOpen, Calendar, Star, TrendingDown, Heart } from "lucide-react";
+import { MapPin, Home, Camera, Euro, Award, Users, MessageCircle, BookOpen, Calendar, Star, TrendingDown, Heart, Instagram, Facebook } from "lucide-react";
 
 export default function Page() {
   return (
@@ -404,8 +404,8 @@ export default function Page() {
             }
           ]}
           socialLinks={[
-            {icon: "Instagram", href: "https://instagram.com", ariaLabel: "Follow us on Instagram"},
-            {icon: "Facebook", href: "https://facebook.com", ariaLabel: "Follow us on Facebook"}
+            {icon: Instagram, href: "https://instagram.com", ariaLabel: "Follow us on Instagram"},
+            {icon: Facebook, href: "https://facebook.com", ariaLabel: "Follow us on Facebook"}
           ]}
           copyrightText="© 2025 ParisStay Airbnb. All rights reserved."
         />
